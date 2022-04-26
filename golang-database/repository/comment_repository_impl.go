@@ -4,8 +4,9 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"golang-database/entity"
 	"strconv"
+
+	"github.com/Difaal21/belajar-golang/golang-database/entity"
 )
 
 type commentRepositoryImpl struct {

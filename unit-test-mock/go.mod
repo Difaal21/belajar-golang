@@ -1,4 +1,4 @@
-module unit-test-mock
+module github.com/Difaal21/belajar-golang/unit-test-mock
 
 go 1.17
 

@@ -3,9 +3,10 @@ package repository
 import (
 	"context"
 	"fmt"
-	golang_database "golang-database"
-	"golang-database/entity"
 	"testing"
+
+	golang_database "github.com/Difaal21/belajar-golang/golang-database"
+	"github.com/Difaal21/belajar-golang/golang-database/entity"
 
 	_ "github.com/go-sql-driver/mysql"
 )

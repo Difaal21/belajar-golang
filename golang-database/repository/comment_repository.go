@@ -2,7 +2,8 @@ package repository
 
 import (
 	"context"
-	"golang-database/entity"
+
+	"github.com/Difaal21/belajar-golang/golang-database/entity"
 )
 
 type CommentRepository interface {

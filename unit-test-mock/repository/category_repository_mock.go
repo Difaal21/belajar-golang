@@ -2,7 +2,7 @@
 package repository
 
 import (
-	"unit-test-mock/entity"
+	"github.com/Difaal21/belajar-golang/unit-test-mock/entity"
 
 	"github.com/stretchr/testify/mock"
 )

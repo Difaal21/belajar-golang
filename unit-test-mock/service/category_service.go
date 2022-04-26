@@ -3,8 +3,10 @@ package service
 
 import (
 	"errors"
-	"unit-test-mock/entity"
-	"unit-test-mock/repository"
+
+	"github.com/Difaal21/belajar-golang/unit-test-mock/repository"
+
+	"github.com/Difaal21/belajar-golang/unit-test-mock/entity"
 )
 
 type CategoryService struct {

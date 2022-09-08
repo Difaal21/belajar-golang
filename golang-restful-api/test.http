@@ -1,0 +1,39 @@
+# Get All Categories
+
+GET http://localhost:3000/api/v1/categories
+Accept: application/json
+X-API-KEY: RAHASIA
+
+###
+# Create Category
+
+POST http://localhost:3000/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+X-API-KEY: RAHASIA
+
+{
+    "name":"HP"
+}
+
+###
+GET http://localhost:3000/api/v1/categories/8
+Accept: application/json
+X-API-KEY: RAHASIA
+
+###
+
+PUT http://localhost:3000/api/v1/categories/8
+Accept: application/json
+Content-Type: application/json
+X-API-KEY: RAHASIA
+
+{
+    "name":"Laptop"
+}
+
+###
+
+DELETE http://localhost:3000/api/v1/categories/7
+Accept: application/json
+X-API-KEY: RAHASIA
